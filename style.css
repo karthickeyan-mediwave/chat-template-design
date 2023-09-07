@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.side-nav {
+  width: 6%;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  border-right: 1px solid #d8d8d8;
+}
+.app-icon {
+  margin-top: 15px;
+}
+.nav-icons {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.nav-icons img {
+  margin-top: 40px;
+}
+.avatar-postion {
+  position: relative;
+}
+.number-icon {
+  position: absolute;
+  right: 10px;
+  top: 9px;
+  color: #ffff;
+  font-size: 14px;
+}
+.header {
+  width: 94%;
+  float: right;
+  height: 50px;
+}
+.head-wrap {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #d8d8d8;
+}
+.head-title {
+  display: flex;
+  align-items: center;
+}
+.head-title button {
+  background: rgb(255 253 253);
+  border: 1px solid #aba8a8;
+  border-radius: 5px;
+}
+.head-title img {
+  padding: 8px;
+}
+.head-title h2 {
+  margin-left: 26px;
+}
+.head-profile-pic {
+  display: flex;
+  align-items: center;
+}
+.avatar-postion img {
+  filter: brightness(50%);
+}
+.btn {
+  background: rgb(255 253 253);
+  border: 1px solid #d8d8d8;
+  border-radius: 5px;
+  padding: 4px 0;
+}
+.head-profile-pic img,
+.number-icon,
+.btn {
+  margin: 0 5px 0 5px;
+}
+img.line-avatar-icon {
+  margin: 0px 10px 0 10px;
+}
+.first-content {
+  width: 25%;
+  float: left;
+  height: 500px;
+  margin-top: 50px;
+}
+.card-wrap {
+  padding: 22px;
+}
+.card {
+  padding: 20px 25px;
+  display: flex;
+  align-items: center;
+  border-radius: 12px;
+}
+#card-bg {
+  background: #f8f9f9;
+}
+h5 {
+  color: #647376;
+}
+.message-content {
+  margin-left: 20px;
+}
+.second-content {
+  width: 40%;
+  float: left;
+  height: 500px;
+  margin-top: 50px;
+}
+.chat-head-pic {
+  margin-left: 4px;
+}
+.chat-time h5 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333333;
+}
+.chat-time h6 {
+  font-size: 12px;
+  color: #aba8a8;
+}
+.chat-wrap {
+  display: flex;
+  justify-content: end;
+}
+.chat-msg {
+  background-color: #6a57ca;
+  color: #ffffff;
+  border-radius: 8px 0 8px 8px;
+}
+.chat-msg p {
+  font-size: 12px;
+  font-weight: 400;
+  padding: 4px 8px;
+  margin-top: 4px;
+}
+.chat-time {
+  display: flex;
+  align-items: center;
+}
+.chat-wrap:nth-child(2) {
+  flex-direction: row-reverse;
+  justify-content: start;
+}
+.third-content {
+  width: 25%;
+  float: left;
+  height: 500px;
+  margin-top: 50px;
+}
+@media screen and (max-width: 1100px) {
+  .side-nav {
+    width: 20%;
+    float: left;
+  }
+  .header {
+    width: 80%;
+    float: right;
+    height: 50px;
+  }
+  .first-content {
+    width: 80%;
+    float: left;
+    height: 100vh;
+    margin-top: 100px;
+  }
+  .second-content {
+    width: 45%;
+    float: left;
+    height: 500px;
+  }
+  .third-content {
+    width: 45%;
+    float: left;
+    height: 500px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .side-nav {
+    width: 20%;
+    float: left;
+  }
+  .header {
+    width: 80%;
+    float: right;
+    height: 50px;
+  }
+  .first-content {
+    width: 80%;
+    float: left;
+    height: 100px;
+  }
+  .second-content {
+    width: 90%;
+    float: left;
+    height: 500px;
+  }
+  .third-content {
+    width: 90%;
+    float: left;
+    height: 500px;
+  }
+  .head-wrap {
+    display: block;
+    padding: 16px;
+  }
+  .head-profile-pic {
+    margin-top: 25px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .side-nav {
+    width: 20%;
+    float: left;
+  }
+  .header {
+    width: 80%;
+    float: right;
+    height: 50px;
+  }
+  .first-content {
+    width: 80%;
+    float: left;
+    height: 100px;
+  }
+  .second-content {
+    width: 80%;
+    float: left;
+    height: 500px;
+  }
+  .third-content {
+    width: 80%;
+    float: left;
+    height: 500px;
+  }
+}
