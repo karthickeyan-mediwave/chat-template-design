@@ -3,5 +3,5 @@
 ### To run
 
 ```sh
-$ npx serve
+$ npx serve app
 ```
